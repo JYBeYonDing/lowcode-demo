@@ -4,7 +4,6 @@ import { Message, Dialog } from '@alifd/next';
 import { IPublicTypeProjectSchema, IPublicEnumTransformStage } from '@alilc/lowcode-types';
 import DefaultPageSchema from './defaultPageSchema.json';
 import DefaultI18nSchema from './defaultI18nSchema.json';
-
 const generateProjectSchema = (pageSchema: any, i18nSchema: any): IPublicTypeProjectSchema => {
   return {
     componentsTree: [pageSchema],
@@ -54,7 +53,12 @@ export const getProjectSchemaFromLocalStorage = (scenarioName: string) => {
     console.error('scenarioName is required!');
     return;
   }
+  // console.error('scenarioName is required!');
+  console.log('scenarioName:'+getLSName(scenarioName))
   const localValue = window.localStorage.getItem(getLSName(scenarioName));
+
+  // 从本地文件读取
+
   if (localValue) {
     return JSON.parse(localValue);
   }

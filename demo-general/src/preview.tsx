@@ -13,6 +13,9 @@ import {
   getPreviewLocale,
   setPreviewLocale,
 } from './services/mockService';
+import assets from './services/assets.json'
+import projectSchema from '../mock/data/preview.json'
+const {fromJsonFile,fromJsFile} = require('../mock/reach')
 
 const getScenarioName = function () {
   if (location.search) {
@@ -26,8 +29,11 @@ const SamplePreview = () => {
 
   async function init() {
     const scenarioName = getScenarioName();
-    const packages = getPackagesFromLocalStorage(scenarioName);
-    const projectSchema = getProjectSchemaFromLocalStorage(scenarioName);
+    // const packages = getPackagesFromLocalStorage(scenarioName);
+    const {packages} = assets;
+    // const {projectSchema} = previewschema;
+    // const projectSchema = getProjectSchemaFromLocalStorage(scenarioName);
+    console.log('schema:'+projectSchema)
     const {
       componentsMap: componentsMapArray,
       componentsTree,

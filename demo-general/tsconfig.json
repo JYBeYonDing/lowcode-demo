@@ -39,6 +39,6 @@
   },
   "include": [
     "./src/"
-  ],
+, "mock"  ],
   "exclude": ["**/test", "**/lib", "**/es", "node_modules"]
 }
