@@ -93,26 +93,6 @@
         ]
       },
       "advancedEditUrls": {}
-    },
-    {
-        "package": "@yx-lowcode/tob-mall-materials",
-        "version": "1.0.5",
-        "library": "YxLowcodeTobMallMaterials",
-        "urls": [
-            "//nos.netease.com/mailpub/hxm/yx-lib/@yx-lowcode/tob-mall-materials/1.0.5/build/lowcode/render/default/view.js",
-            "//nos.netease.com/mailpub/hxm/yx-lib/@yx-lowcode/tob-mall-materials/1.0.5/build/lowcode/render/default/view.css"
-        ],
-        "editUrls": [
-            "//nos.netease.com/mailpub/hxm/yx-lib/@yx-lowcode/tob-mall-materials/1.0.5/build/lowcode/view.js",
-            "//nos.netease.com/mailpub/hxm/yx-lib/@yx-lowcode/tob-mall-materials/1.0.5/build/lowcode/view.css"
-        ],
-        "advancedUrls": {
-            "default": [
-                "//nos.netease.com/mailpub/hxm/yx-lib/@yx-lowcode/tob-mall-materials/1.0.5/build/lowcode/render/default/view.js",
-                "//nos.netease.com/mailpub/hxm/yx-lib/@yx-lowcode/tob-mall-materials/1.0.5/build/lowcode/render/default/view.css"
-            ]
-        },
-        "advancedEditUrls": {}
     }
   ],
   "components": [
@@ -164,22 +144,6 @@
           "https://unpkg.com/@jamesyoung94/jy-test-material-demo@1.0.1/build/lowcode/meta.js"
         ]
       }
-    },
-    {
-        "exportName": "YxLowcodeTobMallMaterialsMeta",
-        "npm": {
-            "package": "@yx-lowcode/tob-mall-materials",
-            "version": "1.0.5"
-        },
-        "url": "//nos.netease.com/mailpub/hxm/yx-lib/@yx-lowcode/tob-mall-materials/1.0.5/build/lowcode/meta.js",
-        "urls": {
-            "default": "//nos.netease.com/mailpub/hxm/yx-lib/@yx-lowcode/tob-mall-materials/1.0.5/build/lowcode/meta.js"
-        },
-        "advancedUrls": {
-            "default": [
-                "//nos.netease.com/mailpub/hxm/yx-lib/@yx-lowcode/tob-mall-materials/1.0.5/build/lowcode/meta.js"
-            ]
-        }
     }
   ],
   "sort": {
